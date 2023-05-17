@@ -18,11 +18,11 @@ Change the .env.example to .env and update the API_KEY - `API_KEY`
 
 ## Start Vite to enable Tailwind CSS
 
-Open a new terminal then run - `npm run dev`
+Launch cmd / code editor terminal then run - `npm run dev`
 
 ## Start the laravel development server
 
-Launch cmd / code editor terminal to start the laravel server - `php artisan serve`
+ Open a new terminal to start the laravel server - `php artisan serve`
 
 ## License
 
