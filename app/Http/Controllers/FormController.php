@@ -67,9 +67,10 @@ class FormController extends Controller
             // Return a response
             return response()->json(['message' => 'Some fields are empty', 'error' => true, 'data' => []]);
         } else {
+            $apiKey = env('API_KEY');
             // Return a response
             $response = Http::withHeaders([
-                "X-RapidAPI-Key" => "46089cd813mshe2b77559ff59ff4p1d9170jsn312ba580c1d2",
+                "X-RapidAPI-Key" =>  $apiKey,
                 "X-RapidAPI-Host" => "yh-finance.p.rapidapi.com"
             ])->withOptions([
                 "verify" => false
@@ -117,9 +118,10 @@ class FormController extends Controller
     public function getStockData(Request $request)
     {
         try {
+            $apiKey = env('API_KEY');
             // code to fetch data
             $response = Http::withHeaders([
-                "X-RapidAPI-Key" => "46089cd813mshe2b77559ff59ff4p1d9170jsn312ba580c1d2",
+                "X-RapidAPI-Key" =>  $apiKey,
                 "X-RapidAPI-Host" => "yh-finance.p.rapidapi.com"
             ])->withOptions([
                 "verify" => false

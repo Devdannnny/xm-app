@@ -368,7 +368,7 @@ $(document).ready(function () {
                 $("#pageTwo").show();
             },
             success: function (response) {
-                console.log(response);
+                // console.log(response);
                 if (response.data.length > 0) {
                     loadStockTable();
                 } else {
@@ -380,7 +380,7 @@ $(document).ready(function () {
             },
             error: function (xhr) {
                 // Handle any errors
-                console.log(xhr.responseText);
+                // console.log(xhr.responseText);
             },
         });
     });
