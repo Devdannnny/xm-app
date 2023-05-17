@@ -16,9 +16,9 @@ $(document).ready(function () {
     $document.on("change", ".symbolDet", function (e) {
         var symbolVal = $(this).val();
         if ($.trim(symbolVal) !== "") {
-            $(".selectedCompName").text(
-                $(this).find(":selected").attr("data-name")
-            );
+            var compName = $(this).find(":selected").attr("data-name");
+            $("#cSelected").val(compName);
+            $(".selectedCompName").text(compName);
             $("#symbol-error").text("");
         } else {
             $("#symbol-error").text("Symbol is required.");
@@ -368,7 +368,7 @@ $(document).ready(function () {
                 $("#pageTwo").show();
             },
             success: function (response) {
-                // console.log(response);
+                console.log(response);
                 if (response.data.length > 0) {
                     loadStockTable();
                 } else {
