@@ -12,7 +12,7 @@ This project was developed with
 -   [x] Chart.js
 -   [x] php mailer - sending of Email
 
-## Update .env Api Key
+## To Get Started - Update .env Api Key
 
 Change the .env.example to .env and update the API_KEY - `API_KEY`
 
