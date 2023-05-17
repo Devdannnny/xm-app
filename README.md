@@ -1,4 +1,5 @@
-![Untitled-1](https://github.com/Devdannnny/xm-app/assets/110941423/80f446a5-7e4b-40e7-b9b6-b80d34e6c5fe)
+![Screen 1](https://github.com/Devdannnny/xm-app/assets/110941423/304bb27b-303a-4663-ad48-c2c59de5e1a3)
+
 
 ## About My XM Completed Task
 
