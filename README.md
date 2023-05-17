@@ -12,7 +12,7 @@ This project was developed with
 
 ## Update .env Key
 
-Change the .env.example to .env and update the API_KEY with the Api Key - `API_KEY`
+Change the .env.example to .env and update the API_KEY - `API_KEY`
 
 ## Start Vite to enable Tailwind CSS
 
